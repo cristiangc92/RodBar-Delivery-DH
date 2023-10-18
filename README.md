@@ -2,7 +2,7 @@
 
 ## Descripcion de los integrantes:
 
-<p><b>Emir Basil: Tiene 19 años</b>, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de paginas web.</p>
+<p><b>Emir Basil:</b> Tiene 19 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de paginas web.</p>
 
 <p><b>Maximiliano Barrientos:</b> Tiene 30 años, vive en la ciudad de Sgo del Estero. Estudiante de Ing. Civil, Inglés y Programación Full Stack. Tiene una hija de 6 años, fanático del futbol, y cuenta con un negocio de comidas.  Le gusta mucho el conocimiento nuevo y aprendizaje continuo, con la intención, siempre, de mejorar y salir adelante en su vida.</p>
 
