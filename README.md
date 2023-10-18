@@ -1,5 +1,14 @@
 # TITULO DEL PROYECTO
 
+## Descripcion:
+
+<p>Creación de un sitio web de un emprendimiento de la Capital de Santiago del Estero sobre la venta de productos de comida elaborada. Se venden especialmente lomitos, pizzas, hamburguesas, sandwich de milanesas y bebidas, mostrando la oferta del menú y sus precios para finalizar el pedido cargando los productos en un carrito de compras.</p>
+
+## Publico objetivo:
+
+<p>El público objetivo al que apuntamos es a todas aquellas personas jóvenes y adultos amantes de la comida rápida, y a turistas y viajeros que buscan una experiencia gastronómica local, sin importar horarios. 
+Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tradicional de nuestros productos.</p>
+
 ## Descripcion de los integrantes:
 
 <p><b>Emir Basil:</b> Tiene 19 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de paginas web.</p>
