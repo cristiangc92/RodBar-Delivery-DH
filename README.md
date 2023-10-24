@@ -23,7 +23,7 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 
 <h3><b>• Cristian Gabriel Cacciolatti:</b></h3> <p>Tiene 31 años, es Desarrollador Web Full Stack, recibido de la academia Henry. Actualmente Tutor y Tutor corrector de la carrera Full Stack con JavaScript en la academia Desafío Latam de Chile. Además de la programación mis intereses están relacionados a la música, soy integrante del Coro Estable de la Provincia de Santiago del Estero. También me gusta hacer ejercicio y pasar tiempo con amigos.</p>
 
-## Sitios de referencia:
+## Sitios de referencia 🌐:
 
 <ol>
   <li><a href="https://betos.com.ar/">Betos</a></li>
@@ -32,9 +32,3 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
   <li><a href="https://www.mcdonalds.com.ar/">Mc Donalds</a></li>
   <li><a href="https://www.rotiseria-collado.com/">Roticeria Collado</a></li>
 </ol>
-
-
-
-
-
-
