@@ -56,9 +56,9 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 
 ## Tipografía:
 
-- ### Brother - Bold.
+- ### *Brother - Bold*.
 
-- ### Inter - Regular, Italic y Bold.
+- ### *Inter - Regular, Italic y Bold*.
 
 ## Foto de perfil:
 
