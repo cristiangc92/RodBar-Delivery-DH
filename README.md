@@ -65,3 +65,6 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 <p align="center">
   <img src="./logo-colores-tipografia/Foto de perfil.png"/>
 </p>
+
+## Link de Trello:
+[Grupo 1 DH](https://trello.com/b/mDz4bKmd/proyecto-integrador)
