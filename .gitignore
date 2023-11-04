@@ -1,0 +1,11 @@
+# Ignorar carpeta node_modules
+node_modules
+
+# Ignorar todos los archivos de texto
+*.txt
+
+# Ignorar archivos relacionados con claves de una API
+.env
+
+# package-lock.json
+package-lock.json

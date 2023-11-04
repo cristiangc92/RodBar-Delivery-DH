@@ -1,0 +1,19 @@
+{
+  "name": "rodbar-delivery-dh",
+  "version": "1.0.0",
+  "description": "Creación de un sitio web de un emprendimiento de la Capital de Santiago del Estero sobre la venta de productos de comida elaborada. Se venden especialmente lomitos, pizzas, hamburguesas, sándwich de milanesas y bebidas, mostrando la oferta del menú y sus precios para finalizar el pedido cargando los productos en un carrito de compras.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
