@@ -6,8 +6,12 @@ const app=express()
 const publicPath=path.resolve(__dirname,'../public')
 app.use(express.static(publicPath))
 
+app.get("/public/css/index.css", (req, res) => {
+    res.sendFile(path.join(__dirname, "/public/css/index.css"));
+  });
+
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'view/home.html'))
+    res.sendFile(path.join(__dirname,'view/index.html'))
 })
 
 app.listen(3001,()=>{
