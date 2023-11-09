@@ -147,8 +147,11 @@ input.boton-gmail{
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
+.formulario{
+    height: 55%;
+}
 .barra{
-    height: 15%;
+    height: 25%;
     display: flex;
     margin: auto;
     width: 70%;
@@ -185,7 +188,7 @@ input.boton-gmail{
     border: none;
 }
 .registro{
-    height: 20%;
+    height: 25%;
     width: 40%;
     display: flex;
     justify-content: center;
