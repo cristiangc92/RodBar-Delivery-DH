@@ -13,3 +13,11 @@ app.get('/',(req,res)=>{
 app.listen(3001,()=>{
     console.log('Servidor corriendo en el puerto 3001');
 })
+
+app.get("/register", (req, res)=>{
+    res.sendFile(path.join(__dirname, "view/register.html"))
+})
+
+app.get("/login", (req, res)=>{
+    res.sendFile(path.join(__dirname, "view/login.html"))
+})
