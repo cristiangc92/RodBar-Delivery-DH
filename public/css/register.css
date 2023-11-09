@@ -54,7 +54,7 @@ main{
     flex-direction: column;
     border-right: solid white 1px;
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: normal;
 }
 .bienvenido{
@@ -85,7 +85,7 @@ main{
 input.boton{
     width: 100%;
     padding: 5%;
-    font-family: "inter",sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: bold;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -96,16 +96,21 @@ input.boton{
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: normal;
     border-left: solid white 1px;
+}
+@font-face {
+    font-family: 'BROTHER';
+    src: url("/Font/BROTHER-Bold.ttf") format('truetype'); /* Cambia la ruta y el formato según tu fuente */
+    /* Puedes agregar otros formatos compatibles con diferentes navegadores, como woff, woff2, etc. */
 }
 .cuenta{
     margin: auto;
     margin-top: 5%;
     height: 10%;
     font-size: 24px;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
 }
 .botones{
     display: flex;
@@ -131,7 +136,6 @@ input.boton-gmail{
     padding: 0;
     border-radius: 50%;
     font-size: 40px;
-    font-family: "Inter", sans-serif;
     font-style: oblique;
     text-align: center;
     color: tomato;
@@ -144,7 +148,7 @@ input.boton-gmail{
     text-align: center;
     font-size: 30px;
     font-style: oblique;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: bold;
 }
 .formulario{
@@ -165,6 +169,7 @@ input.boton-gmail{
     padding-left: 2%;
     background-color: #eee;
     border: none;
+    font-family: "BROTHER", sans-serif;
 }
 .barra2{
     margin: auto;
@@ -175,6 +180,7 @@ input.boton-gmail{
     padding-left: 2%;
     background-color: #eee;
     border: none;
+    font-family: "BROTHER", sans-serif;
 }
 
 .barra3{
@@ -184,6 +190,7 @@ input.boton-gmail{
     font-size: 20px;
     font-style: oblique;
     padding-left: 2%;
+    font-family: "BROTHER", sans-serif;
     background-color: #eee;
     border: none;
 }
@@ -201,7 +208,7 @@ input.boton-registro{
     width: 100%;
     font-size: 24px;
     font-weight: bold;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     border-radius: 20px;
     background-color: rgb(58 3 97);
     color: white;

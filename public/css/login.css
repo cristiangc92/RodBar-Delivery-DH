@@ -54,7 +54,7 @@ main{
     flex-direction: column;
     border-left: solid white 1px;
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: normal;
 }
 .bienvenido{
@@ -85,7 +85,7 @@ main{
 input.boton{
     width: 100%;
     padding: 5%;
-    font-family: "inter",sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: bold;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -96,7 +96,7 @@ input.boton{
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: normal;
     border-right: solid white 1px;
 }
@@ -105,7 +105,7 @@ input.boton{
     margin-top: 5%;
     height: 10%;
     font-size: 24px;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     color: white;
 }
 .botones{
@@ -132,7 +132,7 @@ input.boton-gmail{
     padding: 0;
     border-radius: 50%;
     font-size: 40px;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-style: oblique;
     text-align: center;
     color: tomato;
@@ -146,7 +146,7 @@ input.boton-gmail{
     text-align: center;
     font-size: 24px;
     font-style: oblique;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     font-weight: bold;
     color: white;
 }
@@ -169,6 +169,7 @@ input.boton-gmail{
     padding-left: 2%;
     background-color: #eee;
     border: none;
+    font-family: "BROTHER", sans-serif;
 }
 
 .barra3{
@@ -180,6 +181,7 @@ input.boton-gmail{
     padding-left: 2%;
     background-color: #eee;
     border: none;
+    font-family: "BROTHER", sans-serif;
 }
 .registro{
     height: 30%;
@@ -190,12 +192,12 @@ input.boton-gmail{
 }
 
 input.boton-registro{
-    height: 55%;
+    height: 65%;
     margin: auto;
     width: 100%;
     font-size: 24px;
     font-weight: bold;
-    font-family: "Inter", sans-serif;
+    font-family: "BROTHER", sans-serif;
     border-radius: 20px;
     background-color: rgb(250 173 41);
     color: white;
