@@ -67,4 +67,4 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 </p>
 
 ## Link de Trello:
-[Grupo 1 DH](https://trello.com/b/mDz4bKmd/proyecto-integrador)
+[Grupo 1 DH](https://trello.com/b/dU1EyR3Y/grupo-1-dh)
