@@ -1,19 +1,19 @@
-const express=require('express')
-const path=require('path')
+const express = require("express");
+const path = require("path");
 
-const app=express()
+const app = express();
 
-const publicPath=path.resolve(__dirname,'../public')
-app.use(express.static(publicPath))
+const publicPath = path.resolve(__dirname, "../public");
+app.use(express.static(publicPath));
 
 app.get("/public/css/index.css", (req, res) => {
-    res.sendFile(path.join(__dirname, "/public/css/index.css"));
-  });
+  res.sendFile(path.join(__dirname, "/public/css/index.css"));
+});
 
-app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'view/index.html'))
-})
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "view/index.html"));
+});
 
-app.listen(3001,()=>{
-    console.log('Servidor corriendo en el puerto 3001');
-})
+app.listen(3001, () => {
+  console.log("Servidor corriendo en el puerto 3001");
+});
