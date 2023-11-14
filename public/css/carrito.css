@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    width: 10%;
+}
+
+main{
+    height: 70%;
+}
+H2{
+    display: flex;
+    justify-content: center;
+    font-family: "BROTHER", sans-serif;
+    color: rgb(250 173 41);
+    font-size: 80px;
+}
+.barra-titulos{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(58 3 87);
+    color: white;
+    border: solid white 1px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 1%;
+    font-family: "BROTHER", sans-serif;
+}
+li{
+    width: 15%;
+    text-align: center;
+}
+.barras-productos{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(58 3 87);
+    color: white;
+    border: solid white 1px;
+}
+.barra-1{
+    border: solid white 1px;
+}
+.cantidad{
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+.eliminar{
+    padding: 3%;
+    width: 80%;
+    background-color: rgb(250 173 41);
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: "BROTHER", sans-serif;
+}
+.total{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+.total1{
+    width: 20%;
+    background-color: rgb(120, 84, 153);
+    padding: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "BROTHER", sans-serif;
+}
+.agregar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.agregar1{
+    border: solid 1px rgb(250 173 41);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "BROTHER", sans-serif;
+    padding: 1%;
+}
+.finalizar{
+    display: flex;
+    justify-content: center;
+}
+.finalizar1{
+    border: solid 1px rgb(196, 130, 10);
+    background-color: rgb(250 173 41);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "BROTHER", sans-serif;
+    padding: 1%;
+}
