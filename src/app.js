@@ -9,8 +9,8 @@ app.use(express.static(publicPath));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "view/index.html"));
 });
-app.get("/",(req,res)=>{
-  res.sendFile(path.join(__dirname,"/view/detallPrduc.html"))
+app.get("/detallProduc",(req,res)=>{
+  res.sendFile(path.join(__dirname,"/view/detallProduc.html"))
 });
 app.listen(3001, () => {
   console.log("Servidor corriendo en el puerto 3001");
