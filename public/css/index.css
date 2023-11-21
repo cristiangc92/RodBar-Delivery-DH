@@ -55,8 +55,10 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   margin-right: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 
 .contenedor2 .box2 {
@@ -121,4 +123,61 @@
 .boton button {
   padding: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.box4 {
+  display: none
+}
+
+@media (max-width: 480px) {
+  .box4 {
+    display: inherit
+  }
+  .logInSingUp {
+    display: none
+  }
+  .box2{
+    display: none
+  }
+  .contenedor1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contenedor2 .box1{
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .box1 p{
+    padding: 2rem;
+  }
+  .contenedor2 .box2{
+    margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 3rem;
+  }
+  .box3 input{
+    width: 50%;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .imagen1 {
+    display: none;
+  }
+  .carrusel img {
+    width: 100%;
+  }
+  .item {
+    margin-bottom: 1.5rem;
+  }
+
 }
