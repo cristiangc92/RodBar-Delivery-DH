@@ -76,11 +76,16 @@ footer {
 }
 .copyright {
   font-family: "Inter", sans-serif;
-  font-size: 0.5rem;
+}
+
+footer div {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
 }
 
 footer div img {
-  width: 3%;
+  width: 10%;
 }
 
 @media (max-width: 480px) {
@@ -103,5 +108,8 @@ footer div img {
     justify-content: space-evenly;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
+  }
+  .copyright {
+    font-size: 0.5rem;
   }
 }
