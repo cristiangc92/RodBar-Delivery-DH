@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "BROTHER";
+    src: url("/Font/BROTHER-Bold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "BROTHER", sans-serif;
+    /* Para fijar el footer al final de todo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Aqui termina */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.box1 {
+    width: 10%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logInSingUp {
+    color: rgb(58, 3, 87);
+}
+
+.logInSingUp a {
+    margin-right: 1rem;
+}
+
+/* ---------------------------------------------- */
+
+footer {
+    /* Para fijar el footer al final de todo */
+    margin-top: auto;
+    /* Aqui termina */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(250, 173, 41);
+    font-size: 1.2rem;
+}
+
+footer img {
+    width: 3%;
+}
