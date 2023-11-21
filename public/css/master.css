@@ -19,7 +19,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
 }
@@ -32,6 +32,8 @@ body {
 .box {
     display: flex;
     font-size: 1.2rem;
+    width: 65%;
+    justify-content: space-around;
 }
 
 .box1 {
@@ -40,8 +42,9 @@ body {
 
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
+    width: 100%;
 }
 
 .menu li {
@@ -50,8 +53,9 @@ body {
 }
 
 .box3 {
+    width: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logInSingUp {
