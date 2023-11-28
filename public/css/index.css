@@ -1,0 +1,183 @@
+.carrusel {
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel img {
+  width: 50%;
+  height: auto;
+}
+
+.titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  color: rgb(250, 173, 41);
+}
+
+.titulo h1 {
+  margin-bottom: 3rem;
+}
+
+.item img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contenedor1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.item p {
+  font-size: 40%;
+  color: black;
+  text-align: center;
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.contenedor2 .box1 {
+  width: 70%;
+  background-color: rgb(250, 173, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.05rem;
+  margin-right: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.contenedor2 .box2 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(58, 3, 87);
+  color: rgb(250, 173, 41);
+  font-size: 3rem;
+  padding: 5rem;
+  margin-left: 0.5rem;
+}
+
+.contenedor3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloContacto {
+  font-size: 3rem;
+  color: rgb(58, 3, 87);
+  margin-bottom: 1rem;
+}
+
+.formularioContacto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(58, 3, 87);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.formularioContacto input {
+  width: 90%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-width: 0 0 2px 0;
+  border-color: transparent transparent white transparent;
+  outline: none;
+  background-color: rgb(58, 3, 87);
+  color: white;
+}
+
+.formularioContacto .consulta {
+  border-width: 2px 2px 2px 2px;
+  border-color: white white white white;
+  padding-bottom: 5rem;
+}
+
+.formularioContacto .boton {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.boton button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.box4 {
+  display: none
+}
+
+@media (max-width: 760px) {
+  .box4 {
+    display: inherit
+  }
+  .logInSingUp {
+    display: none
+  }
+  .box2{
+    display: none
+  }
+  .contenedor1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contenedor2 .box1{
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .box1 p{
+    padding: 2rem;
+  }
+  .contenedor2 .box2{
+    margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 3rem;
+  }
+  .box3 input{
+    width: 50%;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .imagen1 {
+    display: none;
+  }
+  .carrusel img {
+    width: 100%;
+  }
+  .item {
+    margin-bottom: 1.5rem;
+  }
+
+}
