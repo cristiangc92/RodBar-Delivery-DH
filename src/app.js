@@ -12,3 +12,6 @@ app.listen(3001, () => {
 
 app.use("/", routes);
 app.use("/detallProduc",routes);
+app.use("/register",routes);
+app.use("/login",routes);
+app.use("/carrito",routes);
