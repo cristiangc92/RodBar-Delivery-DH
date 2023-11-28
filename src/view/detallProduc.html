@@ -17,10 +17,11 @@
                 <h1>NOMBRE DEL PRODUCTO</h1>
                 <h2>PRECIO $2.700</h2>
                 <div class="botones">
-                    <button id="botonindividual">Comprar</button>
-                    <button id="botonindividual">Agregar al Carrito</button>
+                    <form action="carrito.html" method="POST" >
+                    <button id="botonindividual" type="submit">Comprar</button>
+                    </form>
                     <div id="botonindividual">
-                    <form action="carrito.html" method="POST">
+                    <form>
                         <label>CANTIDAD</label>
                         <select name="cantidad" class="botonenviar">
                             <option value="1">1</option>
@@ -34,7 +35,7 @@
                             <option value="9">9</option>
                             <option value="10">10</option>
                         </select>
-                    <input type="submit" value="Enviar" class="botonenviar">
+                    <input type="submit" value="Agregar" class="botonenviar">
                     </form>
                     </div>
                 </div>
