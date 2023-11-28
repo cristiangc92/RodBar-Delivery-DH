@@ -11,3 +11,4 @@ app.listen(3001, () => {
 });
 
 app.use("/", routes);
+app.use("/detallProduc",routes);
