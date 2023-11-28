@@ -1,105 +1,102 @@
-.imagenYprecio{
-    display: flex;
-    margin: 20px
+.imagenYprecio {
+  display: flex;
+  margin: 20px;
+}
+.fotolomo {
+  width: 45%;
+  border: none;
+  border-radius: 15px;
+  margin: 15px;
+  background-color: blueviolet;
+  transition: 0.5s all;
+}
+.botones {
+  display: flex;
+  flex-direction: column;
+}
+.nombreYprecio {
+  text-align: center;
+  width: 30%;
+  align-self: center;
+  background-color: rgb(250, 173, 41);
+  margin-left: 15rem;
+  border: none;
+  border-radius: 15px;
+}
+#botonindividual {
+  margin: 1rem;
+  background-color: rgb(58, 3, 87);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+#botonindividual:hover {
+  background-color: black;
+  transition: all 0.5s;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/fondo3.jpg);
+  background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+.fotolomo:hover {
+  display: unset;
+  box-shadow: 10px 10px 10px rgb(58, 3, 87);
+}
+.descripcion {
+  color: wheat;
+  background-color: rgb(58, 3, 87);
+}
+.titulodescripcion {
+  text-align: center;
+  padding-top: 20px;
+}
+.ingredientes {
+  display: flex;
+  gap: 4rem;
+}
+.ingrecaja1 {
+  width: 50%;
+  text-align: center;
+}
+.botonenviar {
+  margin: 1rem;
+  background-color: rgb(58, 3, 87);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.2s;
+  width: auto;
+}
+footer {
+  background-color: rgb(58, 3, 87);
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: wheat;
+}
+.cajasrelacionadas {
+  display: flex;
+  /* gap: 100px; */
+  align-items: center;
+  width: 100%;
+}
 
-}.fotolomo{
-    width: 45%;
-    border: none;
-    border-radius: 15px;
-    margin:15px;
-    background-color:blueviolet;
-    transition:.5s all;
+.cajarelacionindi img {
+  width: 80%;
+  height: auto;
+  border-radius: 15px;
 }
-.botones{
-    display: flex;
-    flex-direction: column;
-}
-.nombreYprecio{
-    text-align: center;
-    width: 30%;
-    align-self: center;
-    background-color:rgb(250,173,41);
-    margin-left: 15rem;
-    border: none;
-    border-radius: 15px;
-}
-#botonindividual{
-    margin: 1rem;
-    background-color: rgb(58, 3, 87);
-    color: white;
-    border: none;
-    font-size: 1.5rem;
-    font-weight:bold;
-    padding: 1rem;
-    border-radius: 10px;
-    transition: 0.2s;
-}
-#botonindividual:hover{
-    background-color: black;
-    transition:all 0.5s
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(/img/fondo3.jpg);
-    background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
-}
-.fotolomo:hover{
-    display: unset;
-    box-shadow: 10px 10px 10px rgb(58, 3, 87);
-}
-.descripcion{
-    color: wheat;
-    background-color: rgb(58,3,87);
-}
-.titulodescripcion{
-    text-align: center;
-    padding-top: 20px;
-}
-.ingredientes{
-    display: flex;
-    gap: 4rem;
-}
-.ingrecaja1{
-    width: 50%;
-    text-align: center;
-}
-.botonenviar{
-    margin: 1rem;
-    background-color: rgb(58,3,87);
-    color: white;
-    border: none;
-    font-size: 1.5rem;
-    font-weight:bold;
-    padding: 1rem;
-    border-radius: 10px;
-    transition: 0.2s;
-    width: auto;
-}
-footer{
-    background-color: rgb(58, 3, 87);
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    color: wheat;
-}
-.cajasrelacionadas{
-    display: flex;
-    gap: 100px;
-    align-items: center;
-}
-
-.cajarelacionindi img{
-    width: 600px;
-    height: 380px;
-    margin-left: 45%;
-    border: none;
-    border-radius: 15px;
-    background-color:blueviolet;
-    transition:.5s all;
-}
-.cajarelacionindi img:hover{
-    display: unset;
-    box-shadow: 10px 10px 10px rgb(58, 3, 87);
+.cajarelacionindi img:hover {
+  display: unset;
+  box-shadow: 10px 10px 10px rgb(58, 3, 87);
 }
