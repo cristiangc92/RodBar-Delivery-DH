@@ -13,7 +13,7 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 
 - ### Emir Basil:
 
-  Tiene 19 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de páginas web.
+  Tiene 20 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de páginas web.
 
 - ### Maximiliano Barrientos:
 
