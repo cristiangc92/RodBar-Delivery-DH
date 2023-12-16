@@ -1,0 +1,80 @@
+<%- include("../partials/head1.ejs",{pageTitle: "Carrito de compras"})%>
+<link rel="stylesheet" href="css/carrito.css">
+<%- include("../partials/head2.ejs") %>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="box box1">
+                <img class="logo" src="/img/Logo original.png" alt="logo" />
+            </div>
+            <div class="box">
+                <ul class="menu">
+                    <li>Inicio</li>
+                    <li>Quienes Somos</li>
+                    <li>Productos</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="box box3">
+                <div class="logInSingUp">
+                    <a href="/login"> Log In </a>
+                    <a href="/register"> Sing Up </a>
+                </div>
+                <input type="search" placeholder="Buscar..." />
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <div class="titulo">
+            <h2>CARRITO DE COMPRA</h2>
+        </div><br>
+        <div class="barra-titulos">
+            <ul>
+                <li>PRODUCTO</li>
+                <li>NOMBRE</li>
+                <li>PRECIO</li>
+                <li>CANTIDAD</li>
+                <li>TOTAL</li>
+            </ul>
+        </div>
+        <div class="barras-productos">
+            <div class="barra-1">
+                <ul>
+                    <li><img class="imagen" src="" alt="Imagen de algun producto"></li>
+                    <li>Comida 1</li>
+                    <li> Precio 1</li>
+                    <li><input class="cantidad" type="number" name="numero" value="0"></li>
+                    <li><input class="eliminar" type="reset" name="borrar" value="Eliminar"></li>
+                </ul>
+            </div>
+            <div class="barra-1">
+                <ul>
+                    <li><img class="imagen" src="" alt="Imagen de algun producto"></li>
+                    <li>Comida 2</li>
+                    <li> Precio 2</li>
+                    <li><input class="cantidad" type="number" name="numero" value="0"></li>
+                    <li><input class="eliminar" type="reset" name="borrar" value="Eliminar"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="total">
+            <div class="total1">
+                <p>TOTAL: $$$$</p>
+            </div>
+        </div>
+        <br>
+        <div class="agregar">
+            <input class="agregar1" type="button" name="agregarProducto" value="AGREGAR OTRO PRODUCTO">
+        </div>
+        <div class="finalizar">
+            <input class="finalizar1" type="button" name="agregarProducto" value="FINALIZAR COMPRA">
+        </div>
+    </main>
+    <br>
+    <%- include("../partials/footer.ejs") %>
+</body>
+
+</html>

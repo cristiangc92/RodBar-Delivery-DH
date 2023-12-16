@@ -13,7 +13,7 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 
 - ### Emir Basil:
 
-  Tiene 19 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de páginas web.
+  Tiene 20 años, es estudiante de la carrera Lis. Sistemas de Información en la Universidad Nacional de Santiago del Estero. Tiene muy poca experiencia programando, le interesa mucho el desarrollo de páginas web.
 
 - ### Maximiliano Barrientos:
 
@@ -67,4 +67,4 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 </p>
 
 ## Link de Trello:
-[Grupo 1 DH](https://trello.com/b/mDz4bKmd/proyecto-integrador)
+[Grupo 1 DH](https://trello.com/b/dU1EyR3Y/grupo-1-dh)

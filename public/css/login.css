@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main a {
+    width: 30%;
+    padding: 1%;
+}
+
+html,
+body {
+    background-color: rgb(58 3 97);
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 15%;
+    background-color: white;
+}
+
+main {
+    height: 75%;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.contenedor-derecha {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-left: solid white 1px;
+    height: 100%;
+    font-family: "BROTHER", sans-serif;
+    font-weight: normal;
+    border-bottom: solid white 1px;
+}
+
+.bienvenido {
+    margin: auto;
+    font-size: 32px;
+    height: 10%;
+    color: rgb(250 173 41)
+}
+
+.pregunta {
+    margin: auto;
+    margin-bottom: 0%;
+    height: 10%;
+    color: rgb(250 173 41);
+    font-size: 32px;
+}
+
+.boton-sesion {
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    height: 50%;
+}
+
+.boton-login {
+    width: 100%;
+}
+
+input.boton {
+    width: 100%;
+    padding: 5%;
+    font-family: "BROTHER", sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    font-size: 24px;
+}
+
+.contenedor-izquierda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "BROTHER", sans-serif;
+    font-weight: normal;
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+.cuenta {
+    margin: auto;
+    margin-top: 5%;
+    height: 10%;
+    font-size: 24px;
+    font-family: "BROTHER", sans-serif;
+    color: white;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-top: 2%;
+}
+
+.boton-face {
+    width: 10%;
+    height: 70%;
+    margin-right: 5%;
+}
+
+.boton-google {
+    width: 10%;
+    height: 70%;
+    margin-left: 5%;
+}
+
+input.boton-gmail {
+    margin-left: 5%;
+    width: 10%;
+    height: 80%;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: "BROTHER", sans-serif;
+    font-style: oblique;
+    text-align: center;
+    color: tomato;
+    border: none;
+}
+
+.texto {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    height: 5%;
+    text-align: center;
+    font-size: 24px;
+    font-style: oblique;
+    font-family: "BROTHER", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.formulario {
+    height: 55%;
+}
+
+.barra {
+    height: 30%;
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.barra2 {
+    margin: auto;
+    width: 100%;
+    height: 65%;
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 2%;
+    background-color: #eee;
+    border: none;
+    font-family: "BROTHER", sans-serif;
+}
+
+.barra3 {
+    margin: auto;
+    width: 100%;
+    height: 65%;
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 2%;
+    background-color: #eee;
+    border: none;
+    font-family: "BROTHER", sans-serif;
+}
+
+.registro {
+    height: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+input.boton-registro {
+    height: 65%;
+    margin: auto;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "BROTHER", sans-serif;
+    border-radius: 20px;
+    background-color: rgb(250 173 41);
+    color: white;
+}
+
+.olvidar {
+    text-align: end;
+    margin: auto;
+    width: 70%;
+}
+
+.forget-pass {
+    color: rgb(57, 172, 172);
+    font-style: oblique;
+}
+.box4 {
+    display: none;
+}
+
+
+@media(max-width:1000px) {}
