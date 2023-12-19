@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-color: rgb(58, 3, 87);
+    height: 80vh;
+}
+
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+    margin-top: 1%
+}
+form input{
+    height: 2rem;
+}
+
+.imagen{
+    width: 50%;
+}
+
+footer{
+    margin-top: 0;
+}
+.box4{
+    display: none;
+}

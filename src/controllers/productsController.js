@@ -8,8 +8,13 @@ const productsController = {
     },
     carrito:(req, res)=>{
         res.render(path.join(__dirname, "../view/products/carrito.ejs"))
+    },
+    nuevo: (req, res)=>{
+        res.render(path.join(__dirname, "../view/products/newProduct.ejs"))
+    },
+    nuevoProducto: (req, res)=>{
+
     }
-    
 }
 
 module.exports = productsController;

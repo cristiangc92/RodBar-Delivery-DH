@@ -3,28 +3,7 @@
 <%- include("../partials/head2.ejs") %>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="box box1">
-                <img class="logo" src="/img/Logo original.png" alt="logo" />
-            </div>
-            <div class="box">
-                <ul class="menu">
-                    <li>Inicio</li>
-                    <li>Quienes Somos</li>
-                    <li>Productos</li>
-                    <li>Contacto</li>
-                </ul>
-            </div>
-            <div class="box box3">
-                <div class="logInSingUp">
-                    <a href="/login"> Log In </a>
-                    <a href="/register"> Sing Up </a>
-                </div>
-                <input type="search" placeholder="Buscar..." />
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-            </div>
-        </nav>
+        <%- include("../partials/barraNav.ejs") %>
     </header>
     <br>
     <main>

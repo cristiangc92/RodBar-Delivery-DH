@@ -88,6 +88,10 @@ footer div {
 footer div img {
   width: 10%;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 @media (max-width: 480px) {
   .box1 {

@@ -1,0 +1,34 @@
+<%- include("../partials/head1.ejs",{pageTitle: "Carrito de compras"})%>
+<link rel="stylesheet" href="css/newProduct.css">
+<%- include("../partials/head2.ejs") %>
+<body>
+    <header>
+        <%- include("../partials/barraNav.ejs") %>
+    </header>
+    <br>
+    <main>
+        <form action="POST">
+            <label for="nombre">Nombre del producto</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="descripcion">Descripcion del producto</label>
+            <input type="text" name="descripcion" id="descripcion">
+            <br>
+            <div class="imagen">
+            <label for="imagen">Imagen del producto</label>
+            <input type="file" name="imagen" id="imagen">
+            </div>
+            <br>
+            <label for="categoria">Nombre del producto</label>
+            <input type="text" name="categoria" id="categoria">
+            <br>
+            <label for="precio">Nombre del producto</label>
+            <input type="text" name="precio" id="precio">
+            <br>
+        </form>
+    </main>
+    <br>
+    <%- include("../partials/footer.ejs") %>
+</body>
+
+</html>
