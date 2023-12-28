@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(58, 3, 87);
+    height: 80vh;
+    color: white;
+}
+
+.caja-producto {
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+h2 {
+    font-size: 3rem;
+}
+main p{
+    font-size: 1.5rem;
+}
+
+.boton{display: flex;
+    justify-content: center;
+
+}
+main input {
+    font-family: "Brother", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(250, 173, 41);
+}
+.caja-producto .imagen-producto{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+
+.box4 {
+    display: none;
+}

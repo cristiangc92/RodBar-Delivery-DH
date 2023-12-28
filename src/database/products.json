@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Lomito Especial",
+    "ingredientes": "170gr de bife de lomo, lechuga, tomate, queso Tybo, Jamon Cocido, huevo y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "3500",
+    "id": "2",
+    "imagen": "product-1703720967898.jpg"
+  },
+  {
+    "nombre": "Lomito Criollo",
+    "ingredientes": "170gr de bife de lomo, lechuga, tomate, queso Tybo, Jamon Cocido, huevo, salsa criolla y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "3600",
+    "id": "3",
+    "imagen": "product-1703721316924.jpg"
+  },
+  {
+    "nombre": "Lomito al Verdeo",
+    "ingredientes": "170gr de bife de lomo, lechuga, tomate, queso Tybo, Jamon Cocido, huevo, salsa verdeo y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "3600",
+    "id": "4",
+    "imagen": "product-1703721336411.jpg"
+  },
+  {
+    "nombre": "Lomito Cheddar",
+    "ingredientes": "170gr de bife de lomo, lechuga, tomate, queso Cheddar, huevo y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "3600",
+    "id": "5",
+    "imagen": "product-1703721301906.jpg"
+  },
+  {
+    "nombre": "Lomito 4Q",
+    "ingredientes": "170gr de bife de lomo, lechuga, tomate, salsa 4q(tybo, muzzarella, roquefort y sardo), huevo y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "3600",
+    "id": "6",
+    "imagen": "product-1703721351841.jpg"
+  },
+  {
+    "nombre": "Lomito Rod",
+    "ingredientes": "170 gr de bife de lomo, lechuga, tomate, queso Cheddar, panceta, cebolla salteada y mayonesa casera",
+    "categoria": "Lomito",
+    "precio": "10000",
+    "id": "7",
+    "imagen": "product-1703721363291.jpg"
+  },
+  {
+    "nombre": "Lomito Simple",
+    "ingredientes": "170 gr de bife de lomo, lechuga, tomate, queso Tybo y mayonesa casera",
+    "categoria": "lomito",
+    "precio": "3300",
+    "id": "8",
+    "imagen": "product-1703721418212.jpg"
+  }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "nombre": "Maximiliano",
+        "apellido": "Barrientos",
+        "email": "maxi_1204@hotmail.com",
+        "contraseña": "",
+        "categoria": "administrador",
+        "imagen": ""
+    }
+]

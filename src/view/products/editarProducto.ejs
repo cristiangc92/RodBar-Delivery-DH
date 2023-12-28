@@ -1,5 +1,5 @@
 <%- include("../partials/head1.ejs",{pageTitle: "Carrito de compras"})%>
-<link rel="stylesheet" href="css/newProduct.css">
+<link rel="stylesheet" href="/css/newProduct.css">
 <%- include("../partials/head2.ejs") %>
 <body>
     <header>
@@ -7,12 +7,12 @@
     </header>
     <br>
     <main>
-        <form action="/newProduct" method="POST" enctype="multipart/form-data" >
+        <form action="/editar/<%= miProducto.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
             <label for="nombre">Nombre del producto</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" value="<%= miProducto.nombre %>">
             <br>
             <label for="ingredientes">Ingredientes</label>
-            <input type="text" name="ingredientes" id="ingredientes">
+            <input type="text" name="ingredientes" id="ingredientes" value="<%= miProducto.ingredientes %>">
             <br>
             <div class="imagen">
             <label for="imagen">Imagen del producto</label>
@@ -20,14 +20,18 @@
             </div>
             <br>
             <label for="categoria">Categoria</label>
-            <input type="text" name="categoria" id="categoria">
+            <input type="text" name="categoria" id="categoria" value="<%= miProducto.categoria %>">
             <br>
             <label for="precio">Precio</label>
-            <input type="text" name="precio" id="precio">
+            <input type="text" name="precio" id="precio" value="<%= miProducto.precio %>">
             <br>
             <div class="botones">
-            <input class="boton-crear" type="submit" value="Crear">
-            <input class="boton-crear"type="reset" value="Borrar" >
+                <div class="boton-crear">
+            <input type="submit" value="Actualizar">
+                </div>
+                <div class="boton-crear">
+            <a href="/listaProductos"><input type="button" value="Atras" ></a>
+                </div>
             </div>
         </form>
     </main>

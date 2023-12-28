@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(58, 3, 87);
+}
+.caja-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: solid 2px rgb(250, 173, 41);
+    text-align: center;
+}
+.botones-admin input{
+    background-color: rgb(250, 173, 41);
+    font-family: "Brother", sans-serif;
+    font-size: 1.5rem;
+}
+.imagen{
+    width: 30%;
+}
+img{
+    width: 30%;
+}
+.box4{
+    display: none;
+}

@@ -158,7 +158,7 @@ input.boton-gmail{
     height: 55%;
 }
 .barra{
-    height: 25%;
+    height: 20%;
     display: flex;
     margin: auto;
     width: 70%;
@@ -167,7 +167,7 @@ input.boton-gmail{
     margin: auto;
     width: 100%;
     height: 65%;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: oblique;
     padding-left: 2%;
     background-color: #eee;
@@ -178,7 +178,7 @@ input.boton-gmail{
     margin: auto;
     width: 100%;
     height: 65%;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: oblique;
     padding-left: 2%;
     background-color: #eee;
@@ -190,7 +190,7 @@ input.boton-gmail{
     margin: auto;
     width: 100%;
     height: 65%;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: oblique;
     padding-left: 2%;
     font-family: "BROTHER", sans-serif;
