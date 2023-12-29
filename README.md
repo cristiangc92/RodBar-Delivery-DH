@@ -45,13 +45,13 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 ## Logo Original:
 
 <p align="center">
-  <img src="./logo-colores-tipografia/Logo original.png"/>
+  <img src="/img/Logo original.png"/>
 </p>
 
 ## Paleta de colores:
 
 <p align="center">
-  <img src="./logo-colores-tipografia/RodBar paleta de colores.jpg"/>
+  <img src="/img/RodBar paleta de colores.jpg"/>
 </p>
 
 ## Tipografía:
@@ -63,7 +63,7 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 ## Foto de perfil:
 
 <p align="center">
-  <img src="./logo-colores-tipografia/Foto de perfil.png"/>
+  <img src="/img/Foto de perfil.png"/>
 </p>
 
 ## Link de Trello:
