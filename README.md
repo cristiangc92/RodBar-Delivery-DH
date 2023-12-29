@@ -51,7 +51,7 @@ Pero sobre todo a los amantes del buen sabor que quieren disfrutar del toque tra
 ## Paleta de colores:
 
 <p align="center">
-  <img src="img/RodBar paleta de colores.jpg"/>
+  <img src="./public/img/RodBar paleta de colores.jpg"/>
 </p>
 
 ## Tipografía:
