@@ -61,9 +61,9 @@ const productsController = {
         let productos = JSON.parse(fs.readFileSync(path.join(__dirname, "../database/products.json")));
         let id = req.params.id;
         req.body.id = id;
-        req.body.imagen = req.file ? req.file.filename : req.body.oldImagen;
         let productoActualizado = productos.map(producto =>{
             if(producto.id == id){
+                req.body.imagen = req.file ? req.file.filename : producto.imagen;
                 return producto = req.body
             }
             return producto
