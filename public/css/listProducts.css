@@ -26,3 +26,10 @@ img{
 .box4{
     display: none;
 }
+.new a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}

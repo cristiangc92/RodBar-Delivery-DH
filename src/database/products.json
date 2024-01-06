@@ -54,5 +54,13 @@
     "precio": "3300",
     "id": "8",
     "imagen": "product-1703721418212.jpg"
+  },
+  {
+    "nombre": "Burguer RodMax",
+    "ingredientes": "Medallón de carne vacuna de 150gr, Bacon, cheddar, cebolla salteada y mayonesa casera",
+    "categoria": "Burguer",
+    "precio": "3000",
+    "imagen": "product-1704565063640.jpg",
+    "id": "81"
   }
 ]
