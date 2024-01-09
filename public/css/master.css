@@ -81,16 +81,23 @@ footer {
 
 footer div {
   display: flex;
-  width: 30%;
+  width: 50%;
   justify-content: space-around;
 }
 
 footer div img {
-  width: 10%;
+  width: 70%;
+  display: block;
 }
+
 a {
   text-decoration: none;
   color: black;
+}
+footer div a {
+  width: 5%;
+  display: flex;
+  justify-content:center;
 }
 
 @media (max-width: 480px) {
