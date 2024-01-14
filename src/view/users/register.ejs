@@ -25,6 +25,20 @@
                 <div class="cuenta">
                     <h2>CREÁ TU CUENTA</h2>
                 </div>
+                                
+                <form action="/" method="post" enctype="multipart/form-data">
+                    <div class="barra"><input class="barra1" type="text" name="nombre" placeholder="Nombre"></div>
+                    <div class="barra"><input class="barra2" type="text" name="apellido" placeholder="Apellido"></div>
+                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña">
+                    <div class="barra"><input class="barra4" type="email" name="email" placeholder="E-mail"></div>
+                    </div>
+                    <label class="subeImagen" for="profileImage">Sube una imagen de perfil:</label>
+                    <input type="file" id="profileImage" name="profileImage">
+                    <div class="registro"><input class="boton-registro" type="submit" value="REGISTRARME"></div>
+                </form>
+                <div class="texto">
+                    <p> O usá tu mail como registro </p>
+                </div>
                 <div class="botones">
                     <div class="boton-face">
                         <a href="www.facebook.com" class="botonface"><img src="/img/logo-facebook.png"
@@ -34,21 +48,7 @@
                         <a href="www.gmail.com" class="botongoogle"><img src="/img/logo-google.png"
                                 alt="boton-google"></a>
                     </div>
-
                 </div>
-                <div class="texto">
-                    <p> O usá tu mail como registro </p>
-                </div>
-                <form action="/" method="post" enctype="multipart/form-data">
-                    <div class="barra"><input class="barra1" type="text" name="nombre" placeholder="Nombre"></div>
-                    <div class="barra"><input class="barra2" type="text" name="apellido" placeholder="Apellido"></div>
-                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña">
-                    <div class="barra"><input class="barra4" type="email" name="email" placeholder="E-mail"></div>
-                    </div>
-                    <label for="profileImage">Sube una imagen de perfil:</label>
-                    <input type="file" id="profileImage" name="profileImage">
-                    <div class="registro"><input class="boton-registro" type="submit" value="REGISTRARME"></div>
-                </form>
             </div>
         </div>
     </main>
