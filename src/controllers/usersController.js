@@ -2,12 +2,37 @@ const bcrypt = require('bcrypt');
 const fs = require('fs');
 const path = require('path');
 
-/*const usersController = {
-    register:(req, res)=>{
-        res.render(path.join(__dirname, "../view/users/register.ejs"))
-        const { nombre, apellido, contraseña, email } = req.body;
 
-        bcrypt.hash(contraseña, 10)
+
+    const usersController = {
+        register: (req, res)=>{
+            res.render(path.join(__dirname, "../view/users/register.ejs"))
+        },
+
+    processRegister: (req, res) => {
+        let archivoUser = fs.readFileSync('users.json', { encoding: 'utf-8' });
+        let usuarios;
+        if (archivoUser.trim() !== '') {
+            usuarios = JSON.parse(archivoUser);
+        } else {
+        usuarios = [];
+    }
+
+    const newUser = {
+        nombre: req.body.nombre,
+        apellido: req.body.apellido,
+        contraseña: bcrypt.hashSync(req.body.contraseña, 10),
+        email: req.body.email,
+        imagen: req.file ? req.file.filename : null
+    };
+
+    usuarios.push(newUser);
+    let nuevoUsuario = JSON.stringify(usuarios, null, 2);
+    fs.writeFileSync('users.json', nuevoUsuario);
+    res.redirect('/');
+    }
+
+            /*bcrypt.hash(contraseña, 10)
             .then((hashedPassword) => {    
             const newUser = {
                 nombre: req.body.nombre,
@@ -15,49 +40,36 @@ const path = require('path');
                 contraseña: hashedPassword,
                 email: req.body.email,
                 imagen: req.file ? req.file.filename : null
-                };
-    
-            const users = JSON.parse(fs.readFileSync("../database/users.json", 'utf-8'));
-            users.push(newUser);
-            fs.writeFileSync("../database/users.json", JSON.stringify(users, null, 2), 'utf-8');
-        
-            res.redirect('/');
-            })
+                };*/
 
-            .catch ((error) => {
-            console.error(error);
-            res.status(500).send('Hubo un error en el registro del usuario')
-            })
-    },*/
-    const usersController = {
-        register: async (req, res) => {
-            res.render(path.join(__dirname, "../view/users/register.ejs"))
-            register: async (req, res) => {
-                try {
-                    const { nombre, apellido, contraseña, email } = req.body;
-                    const hashedPassword = await bcrypt.hash(contraseña, 10);
-        
-                    const newUser = {
-                        nombre: nombre,
-                        apellido: apellido,
-                        contraseña: hashedPassword,
-                        email: email,
-                        imagen: req.file ? req.file.filename : null
-                    };
-        
-                    const users = JSON.parse(fs.readFileSync("../database/users.json", 'utf-8'));
-                    users.push(newUser);
-                    fs.writeFileSync("../database/users.json", JSON.stringify(users, null, 2), 'utf-8');
-        
-                    res.redirect('/');
-                } catch (error) {
-                    console.error(error);
-                    res.status(500).send('Error en el registro de usuario');
+    /*processLogin:(req, res) => {
+        let errors = validationResult(req);
+
+        if(errors.isEmpty()) {
+            let usersJson = fs.readFileSync('users.json', {encoding: utf-8})
+            let users;
+            if(usersJson == '') {
+                users = [];
+            } else {
+                users = JSON.parse(usersJson);
+            }
+            for (let i = 0; i < users.length; i++) {
+                if (users[i].email == req.body.email) {
+                    if (bcrypt.compareSync(req.body.contraseña, users[i].contraseña)) {
+                        let usarioALoguearse = users[i];
+                        break;
+                    }
                 }
             }
-        },
-
-    login:(req, res)=>{
+                if (usuarioALoguearse == undefined) {
+                    return res.render('login', { errors: [
+                        {msg: 'Credenciales inválidas'}
+                    ]});
+                }
+                req.session.usuarioLogueado = usuarioALoguearse;
+        } else {
+            return res.render('login', { errors: errors.errors});
+        }
         res.render(path.join(__dirname, "../view/users/login.ejs"))
     },
     guardarUsuario: (req, res) => {
@@ -65,8 +77,7 @@ const path = require('path');
         res.redirect('/')
     },
     create: (req, res) => {
-        res.render(req.body);
-    }
+        res.render(req.body);    }*/
 }
 
 module.exports = { usersController : usersController }

@@ -4,16 +4,16 @@ const productController = require ('../controllers/productsController');
 const { usersController } = require ("../controllers/usersController")
 const multer = require ("multer");
 const path = require ("path");
-const session = require ('express-session');
+
 
 
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         if (file.fieldname === 'imagen') {
-            cb(null, path.join(__dirname, "../../public/img/imgProducts"));
+            cb(null, path.join(__dirname, "../public/img/imgProducts"));
         } else if (file.fieldname === 'profileImage') {
-            cb(null, path.join(__dirname, "../../public/img/imgUsers"));
+            cb(null, path.join(__dirname, "../public/img/imgUsers"));
         }
     },
     filename: (req, file, cb) => {
@@ -35,11 +35,16 @@ router.get("/",productController.home);
 router.get("/detallProduc", productController.detalleProducto);
 router.get('/carrito', productController.carrito)
 router.get('/register', usersController.register);
-router.post('/register', usersController.register);
-router.post('/register', upload.single('profileImage'), usersController.register);
-router.post('/register', usersController.guardarUsuario);
+router.post('/register', usersController.processRegister);
+router.post('/register', upload.single('profileImage'), usersController.processRegister);
+/*router.post('/register', usersController.guardarUsuario);
 router.post('/register', usersController.create);
-router.get('/login', usersController.login);
+router.get('/login', usersController.login);*/
+
+/*router.post('/login',[
+    check('email').isEmail().withMessage('E-mail inválido o no registrado en el sistema'),
+    check('contraseña').isLength({min:6}).withMessage('La contraseña es incorrecta'),
+], usersController.processLogin);*/
 router.get("/newProduct", productController.nuevo);
 router.post("/newProduct", upload.single("imagen"), productController.nuevoProducto);
 router.get("/listaProductos", productController.listado);

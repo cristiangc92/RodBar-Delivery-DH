@@ -7,10 +7,30 @@
         <%- include("../partials/barraNav.ejs") %>
     </header>
     <main>
+        <% if (typeof errors != 'undefined') { %>
+            <p style="color:red">ERROR</p>
+            <ul>
+                <% for (let i = 0; i < errors.length; i++) { %>
+                    <li>
+                        <%=errors[i].msg%>
+                    </li>
+            <% } %>
+        </ul>
+        <% } %>
         <div class="contenedor1">
             <div class="contenedor-izquierda">
                 <div class="cuenta">
                     <h2>INICIAR SESIÓN</h2>
+                </div>
+                <form class="formulario">
+                    <div class="barra"><input class="barra2" type="email" name="email" placeholder="E-mail"></div>
+                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña">
+                    </div>
+                    <div class="olvidar"><a class="forget-pass" href="">¿Olvidaste tu contraseña?</a></div>
+                    <div class="registro"><input class="boton-registro" type="submit" value="INICIAR SESIÓN"></div>
+                </form>
+                <div class="texto">
+                    <p> O usá tu mail </p>
                 </div>
                 <div class="botones">
                     <div class="boton-face">
@@ -21,18 +41,7 @@
                         <a href="www.gmail.com" class="botongoogle"><img src="/img/logo-google.png"
                                 alt="boton-google"></a>
                     </div>
-
                 </div>
-                <div class="texto">
-                    <p> O usá tu mail </p>
-                </div>
-                <form class="formulario">
-                    <div class="barra"><input class="barra2" type="text" name="usuario" placeholder="Usuario"></div>
-                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña">
-                    </div>
-                    <div class="olvidar"><a class="forget-pass" href="">¿Olvidaste tu contraseña</a></div>
-                    <div class="registro"><input class="boton-registro" type="submit" value="INICIAR SESIÓN"></div>
-                </form>
             </div>
             <div class="contenedor-derecha">
                 <div class="bienvenido">

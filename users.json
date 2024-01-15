@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Eugenia",
+    "apellido": "Navarrete Chuaire",
+    "email": "eugenianavarrete@hotmail.com",
+    "imagen": null
+  },
+  {
+    "nombre": "Hernan",
+    "apellido": "Aguero",
+    "email": "hernanagu@hotmail.com",
+    "imagen": null
+  },
+  {
+    "nombre": "Juan",
+    "apellido": "Posadas",
+    "email": "juancito@gmail.com",
+    "imagen": null
+  },
+  {
+    "nombre": "Abigail",
+    "apellido": "Perez",
+    "contraseña": "$2b$10$gYQeMkDF9/ATOIQ/YFKucOYionLKK5EAKtZy6KEhie6aYbGfk.WOi",
+    "email": "abi@perez",
+    "imagen": null
+  }
+]

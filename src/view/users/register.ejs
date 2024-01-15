@@ -26,15 +26,14 @@
                     <h2>CREÁ TU CUENTA</h2>
                 </div>
                                 
-                <form action="/" method="post" enctype="multipart/form-data">
+                <form action="/register" method="post" enctype="application/x-www-form-urlencoded">
                     <div class="barra"><input class="barra1" type="text" name="nombre" placeholder="Nombre"></div>
                     <div class="barra"><input class="barra2" type="text" name="apellido" placeholder="Apellido"></div>
-                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña">
+                    <div class="barra"><input class="barra3" type="password" name="contraseña" placeholder="Contraseña"></div>
                     <div class="barra"><input class="barra4" type="email" name="email" placeholder="E-mail"></div>
-                    </div>
                     <label class="subeImagen" for="profileImage">Sube una imagen de perfil:</label>
                     <input type="file" id="profileImage" name="profileImage">
-                    <div class="registro"><input class="boton-registro" type="submit" value="REGISTRARME"></div>
+                    <div class="registro"><input class="boton-registro" type="submit" name="submit" value="REGISTRARME"></div>
                 </form>
                 <div class="texto">
                     <p> O usá tu mail como registro </p>

@@ -3,6 +3,7 @@ const path = require("path");
 const routes = require("./routes/routes");
 const app = express();
 const methodOverride = require("method-override");
+const session = require ('express-session');
 
 app.use(methodOverride("_method"));
 
@@ -30,4 +31,4 @@ app.use("/newProduct", routes)
 app.use("/listaProductos", routes);
 app.use("/detail/:id", routes);
 app.use("/editar/:id", routes);
-//app.use(session( {secret: 'Nuestro mensaje secreto'}));
+//app.use(session( {secret: 'Nuestro sitio es secreto'}));
