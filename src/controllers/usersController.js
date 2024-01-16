@@ -1,8 +1,7 @@
 const bcrypt = require('bcrypt');
 const fs = require('fs');
 const path = require('path');
-
-
+const { validationResult }= require('express-validator');
 
     const usersController = {
         register: (req, res)=>{
@@ -30,33 +29,26 @@ const path = require('path');
     let nuevoUsuario = JSON.stringify(usuarios, null, 2);
     fs.writeFileSync('users.json', nuevoUsuario);
     res.redirect('/');
-    }
+    },
 
-            /*bcrypt.hash(contraseña, 10)
-            .then((hashedPassword) => {    
-            const newUser = {
-                nombre: req.body.nombre,
-                apellido: req.body.apellido,
-                contraseña: hashedPassword,
-                email: req.body.email,
-                imagen: req.file ? req.file.filename : null
-                };*/
+    login: (req, res) => {
+        res.render(path.join(__dirname, "../view/users/login.ejs"))
+    },
 
-    /*processLogin:(req, res) => {
+    processLogin: (req, res) => {
         let errors = validationResult(req);
-
         if(errors.isEmpty()) {
-            let usersJson = fs.readFileSync('users.json', {encoding: utf-8})
-            let users;
-            if(usersJson == '') {
-                users = [];
+            let archivoUser = fs.readFileSync('users.json', { encoding: 'utf-8' });
+            let usuarios;
+            if (archivoUser.trim() !== '') {
+                usuarios = JSON.parse(archivoUser);
             } else {
-                users = JSON.parse(usersJson);
-            }
-            for (let i = 0; i < users.length; i++) {
-                if (users[i].email == req.body.email) {
-                    if (bcrypt.compareSync(req.body.contraseña, users[i].contraseña)) {
-                        let usarioALoguearse = users[i];
+            usuarios = [];
+        }
+            for (let i = 0; i < usuarios.length; i++) {
+                if (usuarios[i].email == req.body.email) {
+                    if (bcrypt.compareSync(req.body.contraseña, usuarios[i].contraseña)) {
+                        let usuarioALoguearse = usuarios[i];
                         break;
                     }
                 }
@@ -67,17 +59,12 @@ const path = require('path');
                     ]});
                 }
                 req.session.usuarioLogueado = usuarioALoguearse;
+                res.redirect('/');
         } else {
             return res.render('login', { errors: errors.errors});
         }
         res.render(path.join(__dirname, "../view/users/login.ejs"))
     },
-    guardarUsuario: (req, res) => {
-        console.log(req.body);
-        res.redirect('/')
-    },
-    create: (req, res) => {
-        res.render(req.body);    }*/
 }
 
 module.exports = { usersController : usersController }

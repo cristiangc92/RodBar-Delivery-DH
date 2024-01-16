@@ -4,6 +4,8 @@ const productController = require ('../controllers/productsController');
 const { usersController } = require ("../controllers/usersController")
 const multer = require ("multer");
 const path = require ("path");
+let check = require ('express-validator')
+let guestMiddleware = require ('../middlewares/guestMiddleware');
 
 
 
@@ -34,17 +36,14 @@ const upload = multer ({ storage : storage});
 router.get("/",productController.home);
 router.get("/detallProduc", productController.detalleProducto);
 router.get('/carrito', productController.carrito)
-router.get('/register', usersController.register);
+router.get('/register', guestMiddleware, usersController.register);
 router.post('/register', usersController.processRegister);
 router.post('/register', upload.single('profileImage'), usersController.processRegister);
-/*router.post('/register', usersController.guardarUsuario);
-router.post('/register', usersController.create);
-router.get('/login', usersController.login);*/
-
-/*router.post('/login',[
+router.get('/login', usersController.login);
+router.post('/login',[
     check('email').isEmail().withMessage('E-mail inválido o no registrado en el sistema'),
     check('contraseña').isLength({min:6}).withMessage('La contraseña es incorrecta'),
-], usersController.processLogin);*/
+], usersController.processLogin);
 router.get("/newProduct", productController.nuevo);
 router.post("/newProduct", upload.single("imagen"), productController.nuevoProducto);
 router.get("/listaProductos", productController.listado);

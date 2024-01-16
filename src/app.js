@@ -3,6 +3,7 @@ const path = require("path");
 const routes = require("./routes/routes");
 const app = express();
 const methodOverride = require("method-override");
+const bodyParser = require('body-parser');
 const session = require ('express-session');
 
 app.use(methodOverride("_method"));
@@ -21,6 +22,8 @@ app.listen(3001, () => {
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
 
 app.use("/", routes);
 app.use("/detallProduc", routes);
